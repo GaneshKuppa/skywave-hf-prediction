@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+venv/
+ENV/
+env/
+skywave_env/
+.venv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & Large Outputs (NEVER COMMIT)
+data/
+eda_outputs/
+model_outputs/
+models/
+figures/
+tables/
+media/
+*.pkl
+*.joblib
+*.csv
+*.parquet
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Reports & Logs
+*.log
+*.aux
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.out
+Final_report.pdf
+Final_report.docx
+Final_report.html
+
+# Temporary Files
+*.tmp
+*.bak
+*.backup
+.offline-markdown-preview/
